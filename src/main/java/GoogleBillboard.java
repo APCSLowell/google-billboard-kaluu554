@@ -8,7 +8,18 @@ public class GoogleBillboard {
 	
 
 	//Finish this function
-	public boolean isPrime(){
+	public static boolean isPrime(dNum){
+		if(num < 2){
+    return false;
+  }
+  else if(dNum >= 2){
+    for(int i = 2; i <= Math.sqrt(dNum); i++){
+      if(dNum%i == 0){
+        return false;
+      }
+    }
+  }
+  return true;
 	}
 
 }
