@@ -9,8 +9,8 @@ public class GoogleBillboard {
 			digits = e.substring(i,i+10);
 			dNum = Double.parseDouble(digits);
 			if(isPrime(dNum) == true){
-    			System.out.print(dNum);
-    			break;
+    				System.out.print(dNum + "");
+    				break;
    			}
 		}
 		
@@ -20,17 +20,17 @@ public class GoogleBillboard {
 	//Finish this function
 	public static boolean isPrime(double dNum){
 		if(dNum < 2){
-    return false;
-  }
-  else if(dNum >= 2){
-    for(int i = 2; i <= Math.sqrt(dNum); i++){
-      if(dNum%i == 0){
-        return false;
-      }
-    }
-  }
-  return true;
-	}
+    			return false;
+  		}
+  		else if(dNum >= 2){
+    			for(int i = 2; i <= Math.sqrt(dNum); i++){
+      				if(dNum%i == 0){
+        			return false;
+      				}
+    			}
+  		}
+  		return true;
+		}
 
 }
 
