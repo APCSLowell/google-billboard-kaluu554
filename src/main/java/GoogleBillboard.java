@@ -18,7 +18,7 @@ public class GoogleBillboard {
 		}
 	}
 	
-}
+
 	//Finish this function
 	public static boolean isPrime(dNum){
 		if(dNum < 2){
@@ -34,5 +34,5 @@ public class GoogleBillboard {
   return true;
 	}
 
-
+}
 
